@@ -231,7 +231,7 @@
                     <!-- Stat Card 2 -->
                     <div class="relative group sm:mt-12">
                         <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-xl">
-                            <img src="/images/training-stat.jpg" alt="Training & Events" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <img src="{{asset('assets/website/img/about-1.webp')}}" alt="Training & Events" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                             <div class="w-full h-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center" style="display: none;">
                                 <svg class="w-20 h-20 text-white opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
@@ -245,7 +245,7 @@
                     </div>
                     <div class="relative group sm:mt-12">
                         <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-xl">
-                            <img src="/images/training-stat.jpg" alt="Training & Events" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <img src="{{asset('assets/website/img/about-2.webp')}}" alt="Training & Events" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                             <div class="w-full h-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center" style="display: none;">
                                 <svg class="w-20 h-20 text-white opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
@@ -261,7 +261,7 @@
                     <!-- Stat Card 3 -->
                     <div class="relative group sm:col-span-2">
                         <div class="aspect-[2/1] rounded-xl overflow-hidden shadow-xl">
-                            <img src="/images/clients-stat.jpg" alt="Assisted Clients" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <img src="{{asset('assets/website/img/about-3.webp')}}" alt="Assisted Clients" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                             <div class="w-full h-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center" style="display: none;">
                                 <svg class="w-20 h-20 text-white opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
@@ -408,7 +408,7 @@
                 <div>
                     <span
                         class="inline-flex items-center px-4 py-1.5 text-sm font-semibold rounded-full bg-blue-50 text-blue-700 mb-5">
-                        Welcome to Operasi Unggul Indonesia
+                        Welcome to LeanCore Consulting
                     </span>
 
                     <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
@@ -417,17 +417,19 @@
                     </h2>
 
                     <p class="text-gray-600 text-lg leading-relaxed mb-6">
-                        ISCEA Indonesia provides internationally recognized training and certification programs
-                        for supply chain, logistics, and procurement professionals.
-                        Since 2019, we have supported the growth of industry leaders
-                        through globally aligned standards and continuous learning.
+                        At LeanCore Consulting, we specialize in empowering manufacturing companies to operate with greater efficiency, agility, and resilience.
+                        Rooted in the principles of lean thinking and operational excellence, we provide strategic consulting and hands-on support to help
+                         organizations unlock their full performance potential.
+                    </p>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                        We believe that excellence starts at the core—in the systems, people, and processes that drive value creation.
+                        That’s why we partner with our clients to build lean, adaptive, and future-ready operations that lead to measurable results.
+                    </p>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                        With a team of experienced consultants, industry practitioners, and lean transformation experts, LeanCore is trusted by
+                        manufacturers across sectors to navigate complexity, streamline operations, and sustain long-term growth.
                     </p>
 
-                    <p class="text-gray-600 leading-relaxed mb-8">
-                        With more than <strong class="text-gray-800">1,700 certified professionals</strong>,
-                        ISCEA Indonesia is committed to strengthening Indonesia’s supply chain ecosystem
-                        and developing trusted, competent professionals.
-                    </p>
 
                     <!-- CTA -->
                     <div class="flex flex-wrap gap-4">
@@ -541,6 +543,132 @@
                             Upcoming Events
                         </a>
                     </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="relative py-24 bg-gradient-to-br from-indigo-50 via-white to-blue-50 overflow-hidden">
+        <!-- DECORATION -->
+        <div class="absolute -top-24 -left-24 w-96 h-96 bg-indigo-200/30 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 -right-24 w-96 h-96 bg-blue-200/30 rounded-full blur-3xl"></div>
+
+        <div class="relative max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                <!-- LEFT CONTENT -->
+                <div>
+                    <span
+                        class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-semibold bg-indigo-100 text-indigo-700 mb-5">
+                        Contact Us
+                    </span>
+
+                    <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
+                        Let’s Start Your
+                        <span class="text-indigo-600">Learning Journey</span>
+                    </h2>
+
+                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                        Interested in our training or certification programs?
+                        Leave your details and our team will contact you with
+                        the right solution for your professional or corporate needs.
+                    </p>
+
+                    <!-- CONTACT INFO -->
+                    <div class="space-y-5">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-indigo-600 text-white mr-4">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 5h2l3 7-1.5 1.5a11.05 11.05 0 005 5L13 16l7 3v2a2 2 0 01-2 2A18 18 0 013 5z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-900">Phone / WhatsApp</p>
+                                <p class="text-gray-600">+62 812-xxxx-xxxx</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-indigo-600 text-white mr-4">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 12H8m0 0l4-4m-4 4l4 4" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-900">Email</p>
+                                <p class="text-gray-600">info@isceaindonesia.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT FORM -->
+                <div class="bg-white rounded-3xl shadow-xl p-8 lg:p-10">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">
+                        Request Information
+                    </h3>
+
+                    <form class="space-y-5">
+                        <!-- NAME -->
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">
+                                Full Name
+                            </label>
+                            <input type="text" placeholder="Your full name"
+                                class="w-full rounded-xl border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
+                        </div>
+
+                        <!-- EMAIL -->
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">
+                                Email Address
+                            </label>
+                            <input type="email" placeholder="you@email.com"
+                                class="w-full rounded-xl border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
+                        </div>
+
+                        <!-- PHONE -->
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">
+                                Phone / WhatsApp
+                            </label>
+                            <input type="text" placeholder="+62 xxx xxxx xxxx"
+                                class="w-full rounded-xl border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
+                        </div>
+
+                        <!-- INTEREST -->
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">
+                                Program of Interest
+                            </label>
+                            <select
+                                class="w-full rounded-xl border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
+                                <option selected disabled>Select program</option>
+                                <option>CSCA – Certified Supply Chain Analyst</option>
+                                <option>CSCM – Certified Supply Chain Manager</option>
+                                <option>CPLM – Certified Professional in Logistics Management</option>
+                                <option>Corporate Training</option>
+                            </select>
+                        </div>
+
+                        <!-- MESSAGE -->
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">
+                                Message
+                            </label>
+                            <textarea rows="4" placeholder="Tell us your needs"
+                                class="w-full rounded-xl border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"></textarea>
+                        </div>
+
+                        <!-- SUBMIT -->
+                        <button type="submit"
+                            class="w-full inline-flex items-center justify-center px-6 py-3 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-700 shadow-lg hover:shadow-xl transition">
+                            Send Request
+                        </button>
+                    </form>
                 </div>
 
             </div>

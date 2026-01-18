@@ -11,9 +11,10 @@
                             class="w-full h-full object-contain"
                         >
                     </div>
+                    <!--
                     <span class="logo-text text-xl font-bold text-white transition-colors duration-300">
                         Operasi Unggul Indonesia
-                    </span>
+                    </span> -->
                 </a>
             </div>
 
